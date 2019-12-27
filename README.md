@@ -3,7 +3,7 @@ A Command Line Tool for cropping images, written in Python.
 Inspired by Adrian Rosebrock's " Capturing mouse click events with Python and OpenCV " tutorial at the following link:  
 http://www.pyimagesearch.com/2015/03/09/capturing-mouse-click-events-with-python-and-opencv/
 
-Modified from the version of Sarvaswa
+Modified from the version of Sarvaswa at the following link:
 https://github.com/Sarvaswa/Crop-Tool
 
 # Added Features
@@ -12,7 +12,7 @@ https://github.com/Sarvaswa/Crop-Tool
 * Crop independent of the crop direction
 * Backward compatibility (Written in Python 3.5, works in Python 2.7)
 * Auto resizing the image to fit the screen
-* Use other library to read screen resolution instead of Win32API (this library cause error in my running)
+* Use other library to read screen resolution instead of Win32API
 
 # Requirements
 * Pyhton (Tested on 2.7 and 3.5)
