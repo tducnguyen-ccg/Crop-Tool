@@ -19,11 +19,10 @@ https://github.com/Sarvaswa/Crop-Tool
 * OpenCV
 * screeninfo
 
-# Usage
-Create a directory named 'Crops' inside the root directory of the project  
-Open Command Line and type the following command  
-``` python crop_tool.py --image PATH_TO_IMAGE```  
-```PATH_TO_IMAGE``` is the path of the image file you want to crop 
+# Usage 
+## Crop image
+Open Command Line and type the following command (Edit file path)
+``` python crop_tool.py ```  
 
 This opens a window displaying the image  
 Click on the starting point of the crop, drag the mouse till the end point and release it  
@@ -33,5 +32,9 @@ Press 'c' to preview the crop
 Press 's' to save the crop to the 'Crops' directory  
 Press 'r' to reset the image (removes the green rectangle from the original image)  
 Press 'd' to end the cropping session and change to the next image
+
+## Assign text to each image and stored as text file
+Open Command Line and type the following command (Edit file path)
+``` python write_label.py ``` 
 
 **NOTE:** Saving can only work after pressing 'c' i.e. after previewing the crop
