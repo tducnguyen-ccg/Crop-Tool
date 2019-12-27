@@ -32,9 +32,14 @@ Press 'c' to preview the crop
 Press 's' to save the crop to the 'Crops' directory  
 Press 'r' to reset the image (removes the green rectangle from the original image)  
 Press 'd' to end the cropping session and change to the next image
+**NOTE:** Saving can only work after pressing 'c' i.e. after previewing the crop
 
 ## Assign text to each image and stored as text file
 Open Command Line and type the following command (Edit file path)
 ``` python write_label.py ``` 
 
-**NOTE:** Saving can only work after pressing 'c' i.e. after previewing the crop
+Click to the displayed image in the beginning
+Type the content from the keyboard, observe the pressed key on the console
+Press 'Enter' to save the label and change to the next image
+
+
